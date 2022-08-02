@@ -1,10 +1,10 @@
 # Customize the Syncfusion Angular ComboBox Using Templates
 
-A quick-start project that shows how to customize the Syncfusion Angular ComboBox list items, header, and footer using templates. The project also contains code snippet to add custom values to the ComboBox popup list using templates.
+A quick-start project that shows how to customize the Syncfusion Angular ComboBox list items, values, header, and footer using templates. The project also contains code snippet to add custom values to the ComboBox popup list using templates.
 
-Documentation: https://ej2.syncfusion.com/react/documentation/combo-box/templates/
+Documentation: https://ej2.syncfusion.com/angular/documentation/combo-box/templates/
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/bootstrap5/combo-box/template
+Online examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/combo-box/template
 
 ## Project prerequisites
 
