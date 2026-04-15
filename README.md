@@ -1,15 +1,50 @@
 # Customize the Syncfusion Angular ComboBox Using Templates
 
-A quick-start project that shows how to customize the Syncfusion Angular ComboBox list items, values, header, and footer using templates. The project also contains code snippet to add custom values to the ComboBox popup list using templates.
+## Repository Description
+A guide for customizing the Syncfusion Angular ComboBox component using templates to personalize list items, values, headers, and footers with custom value support.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/combo-box/templates/
+## Project Overview
+This project demonstrates template customization for the Syncfusion Angular ComboBox. Learn to create interactive dropdown experiences by customizing list items, headers, footers, and enabling users to add custom values dynamically.
 
-Online examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/combo-box/template
+## Key Features
+- **List Item Templates**: Customize dropdown list item appearance
+- **Value Templates**: Control selected value display
+- **Header Templates**: Add custom headers to dropdowns
+- **Footer Templates**: Add custom footers with actions
+- **Custom Values**: Enable users to add custom values to lists
+- **Code Examples**: Complete code snippets included
 
-## Project prerequisites
+## Prerequisites
+- Node.js (latest version)
+- Visual Studio Code
+- Angular CLI
+- npm or yarn
+- Basic Angular knowledge
 
-Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
+## Installation & Setup
+```bash
+git clone https://github.com/syncfusion/customize-the-angular-combobox-using-templates.git
+cd customize-the-angular-combobox-using-templates
+npm install
+```
 
-### How to run this application?
+## How to Run This Application
+1. Clone the repository
+2. Open in Visual Studio Code
+3. Run `npm install`
+4. Run `ng serve`
+5. Navigate to `http://localhost:4200`
 
-To run this application, you need to clone the `customize-the-angular-combobox-using-templates` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `ng serve` command.
+## Template Example
+```typescript
+export class ComboBoxTemplateComponent {
+  data = ['Item 1', 'Item 2', 'Item 3'];
+}
+```
+
+## Documentation & Resources
+- **Official Docs**: https://ej2.syncfusion.com/angular/documentation/combo-box/templates/
+- **Examples**: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/combo-box/template
+
+## Support
+For questions, consult Syncfusion documentation or community forums.
